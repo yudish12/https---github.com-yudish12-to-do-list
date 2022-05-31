@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Roboto;
+}
+body{ 
+    background: #2c3e50;  /* fallback for old browsers */
+    background: linear-gradient(to bottom left, cyan 50%, rgb(212, 95, 223) 50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container{
+    background-color: transparent;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 15rem auto;
+    background-color: #ffffff;
+  width: 40%;
+  border: 3px solid rgb(6, 7, 6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px 5px rgb(0, 0, 0);
+}
+.input{
+
+    /* margin-left: 20rem; */
+    margin-top: 60px;
+}
+#task{
+    color: rgb(0, 0, 0);
+    margin-top: 2rem;
+    width: 20rem;
+    padding:10;
+    font-size:27px;
+    color:rgb(5, 5, 5);
+}
+input[type="text" i]{
+    padding: 10px;
+}
+#task:focus{
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.tasks{
+    /* margin-left: 20rem; */
+    margin-top: 60px;
+    padding: 20px;
+}
+.mar{
+    margin: 2rem;
+}
+::placeholder{
+    margin: 0px;
+    padding: 10px;
+}
+.add{
+    cursor: pointer;
+    color: white;
+    font-size: 1.75rem;
+    padding: 0.6rem 1rem;
+    background-color: rgb(231, 93, 231);
+}
+.add:hover{
+    background-color: #34dbcd;
+}
+.del{
+    max-height: 4rem;
+    text-emphasis: bold;
+    background-color: #34dbcd;
+    font-size: 2rem;
+    padding: 0rem 0.6rem;
+}
+.edit{
+    max-height: 4rem;
+    background-color: #34dbcd;
+    font-size: 2rem;
+    padding: 0rem 0.6rem;
+}
+.tasklist{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin-right: 0.3rem;
+    font-family: cursive;
+    font-size: 27px;
+    padding: 10px;
+    border: 0px solid gray;
+    flex-basis: 26%;
+    margin-left: 14.8rem;
+}
+.edit:hover{
+cursor: pointer;
+    background-color: rgb(231, 93, 231);
+}
+.del:hover{
+    cursor: pointer;
+    background-color: rgb(231, 93, 231);
+}
+.taskContainer{
+    display: flex;
+}
+.done{
+    text-decoration: line-through;
+}
